@@ -1,0 +1,37 @@
+.cabecalho {
+    align-items: center;
+    background: var(--cor-background);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.menu__item { /*Retirar as bullets do menu*/
+    list-style: none;
+}
+
+.menu__item:last-child .menu__link{ /*Eliminando a margem direita de "comunidade"*/
+    margin-right: 0;
+}
+
+.menu__link { /*estilização das palavras do menu, retirando a cor padrão azul e adicionando cinza*/
+    color: #ffffff;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase; /*Põem todas as letras em minúsculas*/
+    font-size: 1.5rem;
+}
+
+.menu__link.ativo {
+    color: var(--cor-destaque);
+    font-weight: var(--peso-titulo);
+}
+
+.menu__link:hover {  /*Isso fará com que os links sejam sublinhados sempre que o mouse passar sobre eles.*/
+    text-decoration: underline;
+}
+
+.menu__lista {
+    display: flex; /*Põem as palavras do menu uma ao lado da outra*/
+}

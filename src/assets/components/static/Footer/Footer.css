@@ -1,0 +1,28 @@
+.footer {
+    text-align: center;
+    background: #884ED9;
+    padding: 2rem;
+}
+
+.footer__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: aquamarine;
+    margin-left: 1em;
+}
+
+.lista__link a:hover{
+    color: #871F4E
+}
+
+.footer__texto {
+    margin: 1em 0;
+    color: white;
+    font-size: 0.875rem;
+}
